@@ -1,22 +1,15 @@
- /*
-serial config:
-Board: Arduiono Pro / Pro Mini
-Port:  tty.usbseriala400eMNr
-Programmer: USBtinyISP
-*/
-
-// Definitionen
-#include <Servo.h> // servo treiber
+ 
+#include <Servo.h> 
 
 Servo servo_0;
 Servo servo_1;
 Servo servo_2;
 Servo servo_3;
 
-int sensorPin0 = A0;    // Schulter
-int sensorPin1 = A1;    // Handfind
-int sensorPin2 = A2;    // Ellbogen
-int sensorPin3 = A3;    // Zange
+int sensorPin0 = A0;    /
+int sensorPin1 = A1;    
+int sensorPin2 = A2;    
+int sensorPin3 = A3;    
 int count0, arrayStep, arrayMax, countverz, Taster, stepsMax, steps, time = 1000, del = 1000, temp;
 // arraystep = memory what pos in the array
 // arrayMax = max steps we safed to array
